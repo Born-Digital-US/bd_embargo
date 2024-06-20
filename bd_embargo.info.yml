@@ -1,0 +1,8 @@
+name: 'BD Embargo'
+type: module
+description: 'Time-based embargo access'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - bd_core:bd_core
+  - views_bulk_edit:views_bulk_edit

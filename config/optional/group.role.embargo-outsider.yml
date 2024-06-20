@@ -1,0 +1,25 @@
+uuid: 7617455e-d575-4ef5-adc7-2d4b4ea5d31a
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.embargo
+    - user.role.authenticated
+id: embargo-outsider
+label: Outsider
+weight: -101
+admin: false
+scope: outsider
+global_role: authenticated
+group_type: embargo
+permissions:
+  - 'view download button'
+  - 'view group_media:audio entity'
+  - 'view group_media:document entity'
+  - 'view group_media:extracted_text entity'
+  - 'view group_media:file entity'
+  - 'view group_media:fits_technical_metadata entity'
+  - 'view group_media:image entity'
+  - 'view group_media:remote_video entity'
+  - 'view group_media:video entity'
+  - 'view group_node:islandora_object entity'

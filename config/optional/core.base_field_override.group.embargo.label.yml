@@ -1,0 +1,18 @@
+uuid: bb8cf013-bae5-4198-939e-317be03cff64
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.embargo
+id: group.embargo.label
+field_name: label
+entity_type: group
+bundle: embargo
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

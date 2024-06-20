@@ -1,0 +1,16 @@
+uuid: a6548a5f-e78a-43f5-a6a4-6e6dc4450505
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.embargo
+    - user.role.anonymous
+id: embargo-anonymous
+label: Anonymous
+weight: -102
+admin: false
+scope: outsider
+global_role: anonymous
+group_type: embargo
+permissions:
+  - 'view group_node:islandora_object entity'

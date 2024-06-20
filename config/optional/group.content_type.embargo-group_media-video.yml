@@ -1,0 +1,18 @@
+uuid: 249abc97-5097-42c8-b17a-2f5045f321cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.embargo
+    - media.type.video
+  module:
+    - groupmedia
+    - media
+id: embargo-group_media-video
+group_type: embargo
+content_plugin: 'group_media:video'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false
+  tracking_enabled: 0

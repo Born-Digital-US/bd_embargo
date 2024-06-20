@@ -1,0 +1,25 @@
+id: bd_embargo_tags
+migration_tags:
+  - islandora
+label: 'BD Embargo tag'
+source:
+  plugin: embedded_data
+  data_rows:
+    - name: Embargo
+      description: Time-based embargo
+      url: http://example.org/embargo
+      vid: islandora_access
+  ids:
+    url:
+      type: string
+    vid:
+      type: string
+process:
+  name: name
+  description: description
+  field_external_uri: url
+  vid: vid
+destination:
+  plugin: 'entity:taxonomy_term'
+migration_dependencies:
+  required: {  }

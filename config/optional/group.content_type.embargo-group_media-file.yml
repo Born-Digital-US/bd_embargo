@@ -1,0 +1,18 @@
+uuid: a8ea9b66-cc23-4084-8406-636ec54b66fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.embargo
+    - media.type.file
+  module:
+    - groupmedia
+    - media
+id: embargo-group_media-file
+group_type: embargo
+content_plugin: 'group_media:file'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false
+  tracking_enabled: 0

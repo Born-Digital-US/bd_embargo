@@ -1,0 +1,14 @@
+uuid: 4265ef65-7a1c-45d2-93d3-078ddf96154c
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.embargo
+id: embargo-admin
+label: Admin
+weight: 100
+admin: true
+scope: individual
+global_role: null
+group_type: embargo
+permissions: {  }

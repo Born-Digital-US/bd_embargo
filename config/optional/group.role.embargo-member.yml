@@ -1,0 +1,25 @@
+uuid: 9e841fb8-89cd-4a6b-a214-187912695306
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.embargo
+    - user.role.authenticated
+id: embargo-member
+label: Member
+weight: -100
+admin: false
+scope: insider
+global_role: authenticated
+group_type: embargo
+permissions:
+  - 'view download button'
+  - 'view group_media:audio entity'
+  - 'view group_media:document entity'
+  - 'view group_media:extracted_text entity'
+  - 'view group_media:file entity'
+  - 'view group_media:fits_technical_metadata entity'
+  - 'view group_media:image entity'
+  - 'view group_media:remote_video entity'
+  - 'view group_media:video entity'
+  - 'view group_node:islandora_object entity'

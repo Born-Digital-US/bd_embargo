@@ -1,0 +1,15 @@
+uuid: a3a76ba8-dde3-4b29-9a7a-2f3238505235
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.embargo
+    - user.role.administrator
+id: embargo-admin_out
+label: Administrator
+weight: 101
+admin: true
+scope: outsider
+global_role: administrator
+group_type: embargo
+permissions: {  }

@@ -1,0 +1,12 @@
+uuid: 1f248af3-3730-4af0-bb8b-6c17c2756429
+langcode: en
+status: true
+dependencies: {  }
+id: embargo
+label: Embargo
+description: 'Time-based embargo'
+new_revision: true
+creator_membership: true
+creator_wizard: false
+creator_roles:
+  - embargo-admin

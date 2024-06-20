@@ -1,0 +1,37 @@
+uuid: b340e0e4-aadb-40e6-878f-a5645ea6cd72
+langcode: en
+status: true
+dependencies:
+  module:
+    - islandora
+    - user
+label: 'Metadata-only for Embargoed'
+name: metadata_only_for_embargoed
+group: Display
+description: 'Metadata-only display for Embargo access control'
+requireAllConditions: true
+disabled: false
+conditions:
+  node_has_term:
+    id: node_has_term
+    negate: false
+    uuid: 65e58484-7423-43b3-b782-5a59721bf447
+    context_mapping:
+      node: '@node.node_route_context:node'
+    uri: 'http://example.org/embargo'
+    logic: and
+  user_role:
+    id: user_role
+    negate: true
+    uuid: 0a8f25ea-d7ad-4f53-aa20-0cf957487676
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator
+      intern: intern
+reactions:
+  view_mode_alter:
+    id: view_mode_alter
+    saved: false
+    mode: node.metadata_only
+weight: 3
