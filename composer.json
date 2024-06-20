@@ -1,0 +1,12 @@
+{
+    "name": "born-digital-us/bd_embargo",
+    "description": "Time-based embargo for Islandora objects",
+    "type": "drupal-module",
+    "authors": [
+        {
+            "name": "Alexander O'Neill",
+            "email": "alexander@born-digital.com"
+        }
+    ],
+    "require": {}
+}
