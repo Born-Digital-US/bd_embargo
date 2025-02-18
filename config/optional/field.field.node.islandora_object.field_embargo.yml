@@ -7,7 +7,6 @@ dependencies:
     - node.type.islandora_object
   module:
     - datetime
-    - islandora_citations
 third_party_settings:
   islandora_citations:
     csl_field: {  }
