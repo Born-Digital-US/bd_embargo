@@ -5,12 +5,12 @@
     "authors": [
         {
             "name": "Alexander O'Neill",
-            "email": "alexander@born-digital.com"
+            "email": "alexander@born-digital.com",
             "role": "Developer"
         },
         {
             "name": "Born-Digital",
-            "email": "hello@born-digital.com"
+            "email": "hello@born-digital.com",
             "role": "Maintainer"
         }
     ],
